@@ -5,7 +5,7 @@ import sys
 import socket
 import ssl
 
-class A:
+class hihi:
 
     def __init__(self, m=3000):
         self.a = builtins.print
@@ -671,7 +671,7 @@ except Exception as e:
     quit()
 
 try:
-    hiii = A()
+    hiii = hihi()
     hiii.giakiet()
     exec(compile(tfile, file, 'exec'), {'__file__': file, '__name__': '__main__'})
     hiii.quangthang()
